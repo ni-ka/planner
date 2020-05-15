@@ -168,8 +168,13 @@ paned.horizontal > separator {
     Pane
 */
 
-.pane-item {
-    font-weight: 600;
+.pane-item  {
+    padding-top:.2em;
+    padding-bottom:.2em;
+    }
+    
+.pane-row:selected .pane-item {
+    font-weight: 700;
 }
 
 .pane-area {
